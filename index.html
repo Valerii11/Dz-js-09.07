@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Форма реєстрації</title>
+  <link rel="stylesheet" href="css/main.css">
+ </head>
+ <body>
+  <form action="" method="post" id="register">
+  <fieldset class="fields">
+  <label for="name">Введіть ім'я</label>
+  <input type="text" class="name" id="name" placeholder="Іван" pattern="^[А-Яа-яЁё]+$" required><span></span><br>
+  <label for="surname">Введіть призвіще</label>
+  <input type="text" class="name" id="surname" placeholder="Іванов" pattern="^[А-Яа-яЁё]+$" required><span></span><br>
+  <label for="city">Місто проживання</label>
+  <input type="text" class="name" id="city" placeholder="Київ" pattern="^[А-Яа-яЁё]+$" required><span></span><br>
+  <label for="email">Введіть актуальний E-mail</label>
+  <input type="email" class="name" id="email" placeholder="example@gmail.com" required><span></span><br>
+  <label for="password">Пароль</label>
+  <input type="password" class="name" id="password" placeholder="********" required pattern="[0-9]{7,}"><span></span><br>
+  <label for="password">Повторіть пароль</label>
+  <input type="password" class="name" ud="password" placeholder="********" required pattern="[0-9]{7,}"><span></span>
+  <p>Введите число з картинки</p>
+  <label for="number" class="img"></label>
+  <input type="text" class="numb" id="number" placeholder="Введіть цифри з картинки" pattern="[0-9]{5}" required><span></span>
+  </fieldset>
+  <fieldset class="send">
+  <button>Зареєструватися</button>
+  </fieldset>
+  <footer><h6>Val &copy; Kyiv 2020</h6></footer>
+  </form>
+ </body>
+</html>
